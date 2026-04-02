@@ -115,7 +115,13 @@ Se puede convertir fácilmente en:
 
 ## 📦 Uso
 
-### 1. Levantar el servicio
+### 1. Clonar el repositorio
+```bash
+git clone https://github.com/jesussuarz/DoliToday_Docker_PHP.git
+cd DoliToday_Docker_PHP
+```
+
+### 2. Levantar el servicio
 
 ```bash
 docker compose up -d --build
@@ -123,7 +129,7 @@ docker compose up -d --build
 
 ---
 
-### 2. Consumir endpoint
+### 3. Consumir endpoint
 
 ```bash
 curl http://localhost:8080
