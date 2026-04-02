@@ -167,7 +167,7 @@ print_r($data);
 * Implementar cache local (recomendado)
 * Evitar uso directo del endpoint externo desde producción
 
-Las APIs suelen aplicar límites y protecciones para evitar abuso y sobrecarga ([DEV Community][2]).
+Las APIs suelen aplicar límites y protecciones para evitar abuso y sobrecarga (https://dev.to/mehmetakar/api-rate-limit-exceeded-how-to-fix-5-best-practices-4n13).
 
 ---
 
