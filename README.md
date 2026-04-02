@@ -24,7 +24,7 @@ El endpoint de DoliToday está protegido por **Cloudflare**, lo que implica:
 
   * TLS fingerprint
   * comportamiento de cliente
-  * headers y cookies ([ZenRows][1])
+  * headers y cookies (https://www.zenrows.com/blog/curl-bypass-cloudflare)
 
 Esto provoca errores como:
 
