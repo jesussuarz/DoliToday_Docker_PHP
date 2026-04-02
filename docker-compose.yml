@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  dolitoday-proxy:
+    build: .
+    container_name: dolitoday_proxy
+    ports:
+      - "8080:80"
+    restart: always
